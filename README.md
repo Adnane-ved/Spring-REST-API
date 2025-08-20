@@ -25,7 +25,7 @@ Il est organisé en 3 projets indépendants pour montrer l’évolution progress
 
 ### 1. Cloner le repository
 ```bash
-git clone https://github.com/ton-profil/employee-crud-examples.git
+git clone https://github.com/Adnane-ved/spring-employee-crud.git
 cd employee-crud-examples
 ```
 ### 2. Choisir un projet
