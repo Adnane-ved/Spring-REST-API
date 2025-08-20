@@ -45,12 +45,12 @@ Avant de commencer, assurez-vous d'avoir installé et configuré les éléments 
 
 ---
 
-## 2. Configuration de la base de données
+### 2. Configuration de la base de données
 
-### Étape 1 : Importer le script SQL
+#### Étape 1 : Importer le script SQL
 Importez le fichier `employee-script.sql` dans votre MySQL Workbench (ou tout autre client MySQL), puis exécutez-le pour créer la base de données et les tables.
 
-### Étape 2 : Configurer `application.properties`
+#### Étape 2 : Configurer `application.properties`
 Ouvrez le fichier `src/main/resources/application.properties` et ajoutez les informations de connexion à la base de données :
 
 ```properties
@@ -59,18 +59,18 @@ spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
 spring.datasource.username=root
 spring.datasource.password=votre-mot-de-passe
 ```
-### Étape 3. Démarrer 
+#### Étape 3. Démarrer 
 ```bash
 mvn spring-boot:run
 ```
 
-### Étape 4 : Tester les endpoints
+#### Étape 4 : Tester les endpoints
 
 Une fois l'application démarrée, vous pouvez tester les endpoints de l'API en utilisant un outil comme [Postman](https://www.postman.com/)  
 
 Exemple :  (Un simple GET depuis le navigateur web )
 
-#### Lister tous les employés
+##### Lister tous les employés
 http://localhost:8080/api/employees
 
 Assurez-vous que l'application Spring Boot est en cours d'exécution avant de tester les endpoints.
