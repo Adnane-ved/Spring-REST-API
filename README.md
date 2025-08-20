@@ -70,7 +70,7 @@ Une fois l'application démarrée, vous pouvez tester les endpoints de l'API en 
 
 Exemple :  (Un simple GET depuis le navigateur web )
 
-### Lister tous les employés
+#### Lister tous les employés
 http://localhost:8080/api/employees
 
 Assurez-vous que l'application Spring Boot est en cours d'exécution avant de tester les endpoints.
