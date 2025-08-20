@@ -32,7 +32,7 @@ cd spring-employee-crud
 ```bash
 cd Employee-CRUD-with-spring-Data-jpa
 ```
-## Test :
+## 🎯 Test :
 
 ### 1. Prérequis
 
