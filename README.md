@@ -26,15 +26,11 @@ Il est organisé en 3 projets indépendants pour montrer l’évolution progress
 ### 1. Cloner le repository
 ```bash
 git clone https://github.com/Adnane-ved/spring-employee-crud.git
-cd employee-crud-examples
+cd spring-employee-crud
 ```
 ### 2. Choisir un projet
 ```bash
 cd Employee-CRUD-with-spring-Data-jpa
-```
-### 3. Démarrer 
-```bash
-mvn spring-boot:run
 ```
 ## Test :
 
@@ -63,8 +59,12 @@ spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
 spring.datasource.username=root
 spring.datasource.password=votre-mot-de-passe
 ```
+### Étape 3. Démarrer 
+```bash
+mvn spring-boot:run
+```
 
-### Étape 3 : Tester les endpoints
+### Étape 4 : Tester les endpoints
 
 Une fois l'application démarrée, vous pouvez tester les endpoints de l'API en utilisant un outil comme [Postman](https://www.postman.com/)  
 
